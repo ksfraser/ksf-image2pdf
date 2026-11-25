@@ -1,0 +1,19 @@
+{
+    "name": "ksfraser/ksf-image2pdf",
+    "description": "Convert images (JPG/PNG) to PDF via pluggable converters (ImageMagick CLI, img2pdf, etc.)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KS Fraser"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ksfraser\\Image2Pdf\\": "src/Ksfraser/Image2Pdf/"
+        }
+    }
+}
